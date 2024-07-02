@@ -44,6 +44,7 @@
     margin-top: 9px;
     margin-left: 50px;    
 }
+
 .watches{
     /* background-color: black; */
     margin-top: 40px;
@@ -64,10 +65,10 @@ p{
 }
 .addtionalinfo{
     /* background-color: brown; */
-    height: 60px;
+    height: 90px;
     width: 70%;
     margin-left: 210px;
-    margin-top: 20px;
+    margin-top: 60px;
     border: 2px black solid;
     display: flex;
     justify-content: center;
@@ -75,7 +76,7 @@ p{
     align-items: center;
 }
 .addtionalinfo p{
-    font-weight: bold;
+    font-size: 24px;
 }
 .icn i{
     size: 600px;
@@ -90,6 +91,7 @@ p{
 }
 .cata{
     display: flex;
+    justify-content: space-around;
     
 
 }
@@ -147,7 +149,7 @@ p{
 }
 .text{
     position: absolute;
-    font-size: 60px;
+    font-size: 15px;
     top: 15px;
     left: 16px;
     z-index: 1;
@@ -260,11 +262,11 @@ hr{
     background-color: black;
 }
 .pics{
-    margin-top: 30px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-evenly;    
 }
 .pics img{
     height: 500px;
     width: 400px;
-}
+}   
